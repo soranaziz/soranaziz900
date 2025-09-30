@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width:100% ;
+    justify-content:  space-around;
+    display: flex;
+    align-items: center;
+
+}
+nav img{
+    max-width: 300px;
+  margin-top: 7px;
+    
+}
+nav a{
+text-shadow: 0 5px 6px #000 ;
+color: #fff;
+text-decoration: none;
+font-weight: 500;
+font-size: 20px;
+}
+nav i{
+    color: #fff;
+}
+.hero{
+    background-image: url(./4k-mercedes-benz-with-trees-1xffhdjq8nfhhrwz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.hero h1{
+    padding-top: 12rem;
+    margin-left: 3.2rem;
+    color: white;
+    font-size: 60px;
+    margin-bottom: 7px;
+}
+.hero p{
+    margin-left: 3.2rem;
+    margin-right: 55rem;
+    color: white;
+font-size: 18px;
+margin-bottom:1.5rem;
+}
+.hero button{
+    margin-left: 3.2rem;
+    width: 7%;
+    padding: 8px ;
+    border-radius: 5px;
+    font-size: 15px;
+        transition: all ease 0.3s 0s ;
+}
+.hero button:hover{
+    background: #ffffff;
+    color: #000000;
+    transition: all ease 0.3s 0s;
+}
+.bnt{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all ease 0.3s 0s ;
+}
+.bnt:hover{
+    border: none;
+}
+
+.h11{
+    text-align: center;
+    color: #000;
+    font-size: 50px;
+    margin-top: 6rem;
+}
+.img1{
+    margin-left: 2rem;
+    display: flex;
+
+}
+.it1 {
+    display: flex;
+}
+.img1 .img2 .img3 h1{
+text-align: center;
+font-size: 60px;
+margin-bottom: 10px;
+margin-top: 10rem;
+text-shadow: 0 1.5px 6px #000000;
+}
+.img1 img{
+max-width: 850px;
+margin-top: 7rem;
+}
+.img1 .img2 .img3 p{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    color: #606060;
+    margin-right: 3rem;
+    font-size: 18px;
+}
+.img1 .img2 .img3  button{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.img1 .img2 .img3  button:hover{
+  background: #fff;
+background-color: #4d4d4d;
+transform: scale(1.1) ;
+color: #fff;
+}
+.card-body {
+    border: 1px solid rgb(59, 59, 59);
+    width: 18%;
+    margin-left: 13rem;
+    border-radius: 10px;
+    height: 90%;
+    transition: all ease 0.3s 0s;
+}
+.card-body:hover{
+    transform: translateY(-9px);
+}
+ .card h5{
+    text-align: center;
+    font-size: 35px; 
+    margin-bottom: 2rem;
+} 
+ .card p{
+    text-align: center;
+ }
+  .card button{
+    width: 30%;
+    padding: 10px;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    background: white;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: all ease 0.3s 0s;
+    margin-bottom: 10px;
+
+  }
+    .card button:hover{
+        transform: scale(0.95);
+        background: #000;
+        color: #fff;
+    }
+.card-body img{
+    max-width: 300px;
+    margin-left: 1rem;
+}
+.all-card{
+    display: flex;
+}
+.box{
+    display: flex;
+}
+.box img{
+    max-width: 700px;
+    margin-right: 3rem;
+}
+.box .box1 .box2 .box12{
+font-size: 35px;
+text-align: center;
+margin-bottom: 1rem;
+}
+.box .box1 .box2 h4{
+    margin-left: 5rem;
+    margin-right: 5rem;
+text-align: center;
+font-size: 19px;
+}
+.box .box1 .box2 p{
+ margin-left: 7rem;
+margin-top: 2rem;
+}
+.box-4{
+display: flex;
+}
+.box-4 img{
+max-width: 700px;
+margin-left: 3rem;
+}
+.box-4  .box-5 .box-6 .box12{
+font-size: 35px;
+text-align: center;
+margin-bottom: 1rem;
+}
+.div0{
+background-image: url(./mer4r.webp);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+padding-top: 5rem;
+}
+.div0 .div1 .div2 label{
+  margin-left: 2rem;
+  font-size: 23px;
+}
+.div0 .div1 .div2 form{
+height: 45rem;
+margin:  0 auto;
+width: 55%;
+background: rgba(245, 245, 245, 0.7);
+ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.18);
+ 
+}
+.div0 .div1 .div2 input  {
+    margin-left: 2rem;
+    margin-top: 2rem;
+width: 30%;
+height: 10%;
+
+border: none;
+border-radius: 5px;
+font-size: 17px;
+padding: 3px;
+}
+.div0 .div1 .div2 textarea{
+    margin-left: 8rem;
+    height: 50%;
+    margin-top: 3rem;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.div0 .div1 .div2 button{
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+    padding: 17px;
+    background: white;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+transition: all ease 0.3s 0s ;
+}
+.div0 .div1 .div2 button:hover{
+    background: #000;
+    color: #fff;
+}
+.vo h1{
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 50px;
+}
+.vo p{
+    text-align: center;
+    margin-top: 3rem;
+    margin-left:5rem ;
+    margin-right:5rem ;
+    font-size: 20px;
+}
+.vo video{
+    margin-top: 2rem;
+    margin-left:34rem ;
+    margin-bottom: 6rem;
+    border-radius: 5px;
+}
+footer{
+    background: #000;
+    border-radius: 24px 24px 0 0 ;
+    padding: 9px;
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    max-width: 300px;
+}
+footer a{
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+    transition: all ease 0.3s 0s;
+}
+footer a:hover{
+    transform: translateY(-9px);
+}
+footer i{
+    color: white;
+    font-size: 20px;
+
+    transition: all ease 0.3s 0s;
+}
+footer i:hover{
+    transform: translateY(-9px);
+}
